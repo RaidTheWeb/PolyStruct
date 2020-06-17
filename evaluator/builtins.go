@@ -107,13 +107,23 @@ var builtins = map[string]*object.Builtin{
 		},
 	},
 
-	"puts": &object.Builtin{
+	"Print": &object.Builtin{
 		Fn: func(args ...object.Object) object.Object {
 			for _, arg := range args {
-				fmt.Println(arg.Inspect())
+				fmt.Print(arg.Inspect())
 			}
 
 			return NULL
 		},
 	},
+
+    "Println": &object.Builtin{
+        Fn: func(args ..object.Object) object.Object {
+            for _, arg := range args {
+                fmt.Println(arg.inspect())
+            }
+
+            return NULL
+        }
+    }
 }
