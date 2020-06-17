@@ -18,9 +18,9 @@ func Start(in io.Reader, out io.Writer, isfile) {
 	env := object.NewEnvironment()
 
 	for {
-        if isfile != true {
-		    fmt.Printf(PROMPT)
-        }
+        	if isfile != true {
+		    	fmt.Printf(PROMPT)
+        	}
 		scanned := scanner.Scan()
 		if !scanned {
 			return
