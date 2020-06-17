@@ -101,7 +101,7 @@ type Builtin struct {
 }
 
 func (b *Builtin) Type() ObjectType { return BUILTIN_OBJ }
-func (b *Builtin) Inspect() string  { return "builtin function" }
+func (b *Builtin) Inspect() string  { return "<builtin function>" }
 
 type Array struct {
 	Elements []Object
