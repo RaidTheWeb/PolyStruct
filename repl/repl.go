@@ -13,12 +13,14 @@ import (
 
 const PROMPT = ">> "
 
-func Start(in io.Reader, out io.Writer) {
+func Start(in io.Reader, out io.Writer, isfile) {
 	scanner := bufio.NewScanner(in)
 	env := object.NewEnvironment()
 
 	for {
-		fmt.Printf(PROMPT)
+        if isfile != true {
+		    fmt.Printf(PROMPT)
+        }
 		scanned := scanner.Scan()
 		if !scanned {
 			return
