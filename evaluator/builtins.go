@@ -4,7 +4,7 @@ import (
 	"fmt"
 	_ "unicode/utf8"
 
-	"github.com/raidtheweb/polystruct/object"
+	"github.com/RaidTheWeb/PolyStruct/object"
 )
 
 var builtins = map[string]*object.Builtin{

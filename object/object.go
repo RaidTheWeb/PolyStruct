@@ -6,7 +6,7 @@ import (
 	"hash/fnv"
 	"strings"
 
-	"github.com/raidtheweb/polystruct/ast"
+	"github.com/RaidTheWeb/PolyStruct/ast"
 )
 
 type ObjectType string

@@ -3,8 +3,8 @@ package evaluator
 import (
 	"fmt"
 
-	"github.com/raidtheweb/polystruct/ast"
-	"github.com/raidtheweb/polystruct/object"
+	"github.com/RaidTheWeb/PolyStruct/ast"
+	"github.com/RaidTheWeb/PolyStruct/object"
 )
 
 var (

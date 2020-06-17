@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/raidtheweb/polystruct/token"
+	"github.com/RaidTheWeb/PolyStruct/token"
 )
 
 type Node interface {

@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	"github.com/raidtheweb/polystruct/token"
+	"github.com/RaidTheWeb/PolyStruct/token"
 )
 
 type Lexer struct {

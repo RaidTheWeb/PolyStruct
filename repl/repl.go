@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/raidtheweb/polystruct/evaluator"
-	"github.com/raidtheweb/polystruct/lexer"
-	"github.com/raidtheweb/polystruct/object"
-	"github.com/raidtheweb/polystruct/parser"
+	"github.com/RaidTheWeb/PolyStruct/evaluator"
+	"github.com/RaidTheWeb/PolyStruct/lexer"
+	"github.com/RaidTheWeb/PolyStruct/object"
+	"github.com/RaidTheWeb/PolyStruct/parser"
 )
 
 const PROMPT = ">> "
