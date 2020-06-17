@@ -81,6 +81,7 @@ func (l *Lexer) NextToken() token.Token {
 	case ':':
 		tok = newToken(token.COLON, l.ch)
 	case '"':
+    case '\'':
 		tok.Type = token.STRING
 		tok.Literal = l.readString()
 	case 0:
@@ -139,7 +140,7 @@ func (l *Lexer) readString() string {
 	position := l.position + 1
 	for {
 		l.readChar()
-		if l.ch == '"' {
+		if l.ch == '"' || l.ch == "'" {
 			break
 		}
 	}
