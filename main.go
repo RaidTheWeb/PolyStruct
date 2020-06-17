@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/user"
 
-	"github.com/raidtheweb/polystruct/repl"
+	"github.com/RaidTheWeb/PolyStruct/repl"
 )
 
 func main() {
