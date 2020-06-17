@@ -1,7 +1,7 @@
 package lexer
 
 import (
-	"github.com/mmyoji/go-monkey/token"
+	"github.com/raidtheweb/polystruct/token"
 )
 
 type Lexer struct {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	_ "unicode/utf8"
 
-	"github.com/mmyoji/go-monkey/object"
+	"github.com/raidtheweb/polystruct/object"
 )
 
 var builtins = map[string]*object.Builtin{

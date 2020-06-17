@@ -1,2 +1,2 @@
 language = "go"
-run = "go run main.go in.mon"
+run = "go run main.go"

@@ -6,7 +6,7 @@ import (
 	"hash/fnv"
 	"strings"
 
-	"github.com/mmyoji/go-monkey/ast"
+	"github.com/raidtheweb/polystruct/ast"
 )
 
 type ObjectType string

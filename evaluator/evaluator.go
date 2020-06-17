@@ -3,8 +3,8 @@ package evaluator
 import (
 	"fmt"
 
-	"github.com/mmyoji/go-monkey/ast"
-	"github.com/mmyoji/go-monkey/object"
+	"github.com/raidtheweb/polystruct/ast"
+	"github.com/raidtheweb/polystruct/object"
 )
 
 var (

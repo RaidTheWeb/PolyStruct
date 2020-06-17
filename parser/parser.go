@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/mmyoji/go-monkey/ast"
-	"github.com/mmyoji/go-monkey/lexer"
-	"github.com/mmyoji/go-monkey/token"
+	"github.com/raidtheweb/polystruct/ast"
+	"github.com/raidtheweb/polystruct/lexer"
+	"github.com/raidtheweb/polystruct/token"
 )
 
 const (

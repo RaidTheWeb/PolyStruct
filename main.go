@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/user"
 
-	"github.com/mmyoji/go-monkey/repl"
+	"github.com/raidtheweb/polystruct/repl"
 )
 
 func main() {
